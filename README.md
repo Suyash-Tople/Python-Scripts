@@ -12,8 +12,11 @@ This Repository contain some of python scripts
  
  Requirements:
    -> python3.0  
-   -> The Resource (Data file) containing words and their meaning.<a href=my_scripts/data.json>Click here</a>
+   -> The Resource (Data file) containing words and their meaning.
+   ```
+   <a href=my_scripts/data.json>Click here</a>
  
+ ``` Bash
  Usage:
     -> Run the code and go on with the interface.
     
