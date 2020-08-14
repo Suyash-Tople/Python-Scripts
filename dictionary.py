@@ -21,6 +21,7 @@ def translate(meaning):
             return "The word does'nt exist. Please double check it."
         else:
             return "You may have enter a wrong input, Try again!!"
+    
     #If no search word is found in dictionary
     else:
         return "The word does'nt exist. Please double check it."
