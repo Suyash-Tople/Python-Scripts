@@ -12,7 +12,7 @@ def translate(meaning):
     if meaning in data:
         return data[meaning]
 
-    # Checks if missspell by user and ask, is that the word you seacrh for?
+    # Checks if missspell by user and ask, is that the word you search for?
     elif len(get_close_matches(meaning, data.keys()))>0:
         yn = input("Did you mean %s instead? Enter Y if yes, or N if no: " % get_close_matches(meaning, data.keys())[0])
         if yn =="Y":
