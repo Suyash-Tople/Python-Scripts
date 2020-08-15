@@ -18,6 +18,7 @@ This Repository contain some of python scripts
  
  ``` Bash
  Usage:
+    -> Make sure that your Resource (data file) and python code are in same directory.
     -> Run the code and go on with the interface.
     
  ```
